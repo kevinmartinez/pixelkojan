@@ -1,0 +1,277 @@
+/* Built by Pixelkojan */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #887BA5;
+  height: 100%;
+  text-align: center;
+}
+
+html {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif; }
+
+
+
+img {
+  max-width: 100%; }
+
+/* Main Header
+================================= */
+.main-header {
+  height: 100%;
+}
+
+.pres-name {
+  margin-top: 20%;
+}
+
+.work-heading {
+  margin-top: 3%;
+}
+
+/* Nav
+================================= */
+
+/* Footer
+================================= */
+footer {
+  height: 100%;
+}
+
+.footer-heading {
+  color: #573E86;
+}
+
+.footer-heading h1 {
+    font-size: 50px;
+}
+
+.footer-heading .pres-name {
+    font-size: 60px;
+}
+
+/* Header
+================================= */
+#main-header {
+  background: #887BA5;
+}
+
+.presentation {
+  padding: 80px 0;
+  color: #573E86;
+  text-align: center;
+}
+
+.presentation img {
+  width: 180px;
+  height: 180px;
+  border: 9px solid #533A7D;
+  border-radius: 50%;
+}
+
+/* Header text presentation
+================================= */
+.pres-name,
+.pres-text,
+.pres-pixelkojan {
+  display: block;
+  font-size: 1em; }
+
+.pres-text,
+.pres-pixelkojan {
+  font-size: 0.6em;
+  font-weight: 400;
+  text-transform: none; }
+
+.pres-pixelkojan {
+  font-size: 0.5em; }
+
+/* Sass testing
+================================= */
+.presentation h1 {
+  font-size: 50px;
+}
+
+.presentation .pres-name {
+  font-size: 60px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a {
+  color: #C7C1D6;
+}
+
+/*
+HEADING
+*/
+#main-nav {
+  float: left;
+  margin: 0 0 70px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+/*
+h2 {
+  margin: -5px 0 0;
+}*/
+
+#main-nav {
+  background-color: #573E86;
+  border-color: #9b59b6;
+}
+
+
+/*
+Navigation
+*/
+.main-nav-list {
+  background: #8e44ad;
+}
+
+h1, h2 {
+  color: #fff;
+}
+
+.main-nav-list a, nav a:visited {
+  color: #fff;
+}
+
+.main-nav-list a.selected, nav a:hover {
+  color: #C7C1D6;
+}
+
+.main-nav-list {
+  text-align: center;
+  padding: 10px 0;
+  margin: 30px 0 0;
+}
+
+.main-nav-list ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+.main-nav-list li {
+  display: inline-block;
+}
+
+.main-nav-list a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+
+/*
+Work
+================================= */
+.work-section {
+  background-color: white;
+  color: black;
+  padding-bottom: 100px;
+}
+
+.work-section h1 {
+  color: black;
+}
+
+.showcase {
+  margin: 0 auto;
+  border: 1px solid black;
+  width: 600px;
+  height: 500px;
+  margin-bottom: 100px;
+}
+
+.skapavetande {
+  background-image: url('../img/skapavetande.jpg');
+  filter: grayscale(100%);
+}
+.yoiride {
+  background-image: url('../img/yoiride.jpg');
+  filter: grayscale(100%);
+}
+.wameko {
+  background-image: url('../img/wameko.jpg');
+  filter: grayscale(100%);
+}
+.bladstroms {
+  background-image: url('../img/bladstroms.jpg');
+  filter: grayscale(100%);
+}
+
+.showcase:hover {
+  background-color: transparent;
+}
+
+/*
+Mediaaaaaaaaaaa Queries
+================================= */
+
+@media screen and (min-width: 480px) {
+
+}
+
+/* Media Queries
+================================= */
+@media screen and (min-width: 660px) {
+
+.presentation .pres-name {
+  font-size: 80px;
+}
+
+  .main-nav-list {
+    background: none;
+    float: right;
+    font-size: 1.125em;
+    margin-right: 5%;
+    text-align: right;
+    width: 45%;
+  }
+
+  #logo {
+    float: left;
+    margin-left: 5%;
+    text-align: left;
+    width: 45%;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  h2 {
+    font-size: 0.825;
+    margin-bottom: 20px;
+  }
+
+  #main-nav {
+    border-bottom: 10px solid #533A7D;
+  }
+}
+

@@ -1,0 +1,25 @@
+{
+  "name": "pixelkojan",
+  "version": "1.0.0",
+  "description": "pixelkojan.se",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-sass": "node-sass ./scss/style.scss ./css/style.css",
+    "watch-sass": "nodemon -e scss -w /scss/style.scss -x 'npm run build-sass'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinmartinez/pixelkojan.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinmartinez/pixelkojan/issues"
+  },
+  "homepage": "https://github.com/kevinmartinez/pixelkojan#readme",
+  "devDependencies": {
+    "node-sass": "^4.5.3"
+  }
+}

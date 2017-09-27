@@ -1,3 +1,1 @@
-pixelkojan.se
-
-"The worlds finest"
+Visit us at www.pixelkojan.se
